@@ -24,7 +24,7 @@ def multiple_replace(string, rep_dict):
 
 
 with open('h01.txt', 'r', encoding='utf-8') as rf:
-    with open('test_ho1.txt', 'w', encoding='utf-8') as wf:
+    with open('CreateDocuments/test_ho1.txt', 'w', encoding='utf-8') as wf:
         for line in rf:
             x = re.findall(r"\B%\d\d\b%", line)
             if x:
